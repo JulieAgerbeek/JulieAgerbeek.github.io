@@ -36,43 +36,42 @@
 				</header>
 
 			<!-- Main -->
-				<article id="main">
+			<article id="main">
 
-					<header class="special container">
-						<h2>Get In Touch</h2>
-						<p>Don't hesitate to reach out. I'm happy to hear from you!</p>
-					</header>
+				<header class="special container">
+					<h2>Get In Touch</h2>
+					<p>Don't hesitate to reach out. I'm happy to hear from you! <br>You can fill in the form below or send me an email.
+					<br><br>My email: julie.agerbeek@gmail.com
+					</p>
+				</header>
 
-					<!-- One -->
-						<section class="wrapper style4 special container medium">
-							<!-- Content -->
-								<div class="content">
-									<form>
-										<div class="row gtr-50">
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="name" STYLE="color:white" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" STYLE="color:white" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" STYLE="color:white" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" STYLE="color:white" rows="7"></textarea>
-											</div>
-											<div class="col-12">
-												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
+				<!-- One -->
+					
+				<section class="wrapper style4 special container medium">
+						<!-- Content -->
+						<div class="contact-form">
+							<form action="https://formsubmit.co/julie.agerbeek@gmail.com" method="POST">
+							  <input type="hidden" name="name" value="thank-you.html">
+							  <input type="hidden" name="message" value="false">
+						
+							  <h6>Name *</h6>
+							  <input type="text" name="name" required>
+						
+							  <h6>Email *</h6>
+							  <input type="email" name="email" required>
 
-						</section>
+							  <h6>Subject *</h6>
+							  <input type="text" name="subject" required>
+						
+							  <h6>Message *</h6>
+							  <textarea name="message" required></textarea>
+						
+							  <button type="submit" name="submit">Send</button>
+							</form>
+						  </div>
+					</section>
 
-				</article>
+			</article>
 
 			<!-- Footer -->
 			<footer id="footer">
